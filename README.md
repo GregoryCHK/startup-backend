@@ -53,6 +53,7 @@ This project demonstrates my ability to architect a **production-ready backend**
 - **Document Storage**: File uploads to S3
 - **Webhooks**: For third-party integrations
 - **WebSocket Support**: Real-time notifications
+- **Dockerize for deployment**
 
 
 ---
@@ -64,17 +65,17 @@ startup-backend/
 ├── backend/                # Core Django config
 │   ├── __init__.py
 │   ├── asgi.py
-│   ├── settings.py         # Split settings recommended
+│   ├── settings.py        
 │   └── urls.py            # Router configurations
 │
 ├── confirmations/          # Main app
 │   ├── migrations/
 │   ├── __init__.py
 │   ├── admin.py
-│   ├── models.py          # All data models
-│   ├── serializers.py     # Custom validators
-│   ├── urls.py           # ViewSet routes
-│   └── views.py          # Business logic
+│   ├── models.py         
+│   ├── serializers.py    
+│   ├── urls.py           
+│   └── views.py          
 │
 ├── venv/
 ├── .gitignore
