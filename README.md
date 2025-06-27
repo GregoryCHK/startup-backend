@@ -53,6 +53,7 @@ This project demonstrates my ability to architect a **production-ready backend**
 - **Document Storage**: File uploads to S3
 - **Webhooks**: For third-party integrations
 - **WebSocket Support**: Real-time notifications
+- **Email/SMS**: Twilio 
 - **Dockerize for deployment**
 
 
